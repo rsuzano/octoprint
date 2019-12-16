@@ -1,0 +1,228 @@
+2019-07-17 18:33:19,537 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-07-17 18:33:19,578 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2019-07-17 18:33:19,589 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2019-07-17 18:33:19,590 - octoprint.server - INFO - OctoPrint 1.3.10
+2019-07-17 18:33:19,592 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Bed Visualizer (0.1.7) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_bedlevelvisualizer
+|  Core Wizard (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  CuraEngine (<= 15.04) (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/cura
+|  Custom Control Editor (0.2.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_customControl
+|  Discovery (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Force Login (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  Logging (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Navbar Temperature Plugin (0.11) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_navbartemp
+|  Plugin Manager (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  Slic3r (1.1.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_slic3r
+|  Software Update (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  STL Viewer (0.4.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_stlviewer
+|  Virtual Printer (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2019-07-17 18:33:19,600 - octoprint.environment - INFO - Detected environment is Python 2.7.15rc1 under Linux (linux2). Details:
+|  hardware:
+|    cores: 8
+|    freq: 1750.0
+|    ram: 2091446272
+|  os:
+|    id: linux
+|    platform: linux2
+|  python:
+|    pip: '18.0'
+|    version: 2.7.15rc1
+|    virtualenv: /opt/OctoPrint/venv
+2019-07-17 18:33:19,600 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2019-07-17 18:33:21,941 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 2.3s
+2019-07-17 18:33:22,234 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2019-07-17 18:33:23,087 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2019-07-17 18:33:23,359 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 1.3s
+2019-07-17 18:33:23,602 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2019-07-17 18:33:24,753 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 1.3s
+2019-07-17 18:33:26,301 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 1.5s
+2019-07-17 18:33:28,237 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 1.8s
+2019-07-17 18:36:37,164 - tornado.access - WARNING - 404 GET /favicon.ico (192.168.43.169) 5.29ms
+2019-07-17 18:36:37,175 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.43.169
+2019-07-17 18:36:42,889 - octoprint.server.api - INFO - Actively logging in user rsuzano from 192.168.43.169
+2019-07-17 18:36:42,924 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.43.169
+2019-07-17 18:36:42,934 - octoprint.server.util.flask.PreemptiveCache - INFO - Adding entry for / and {'query_string': 'l10n=en', 'path': u'/', '_count': 1, '_timestamp': 1563388602.934618, 'base_url': 'http://192.168.43.32:5000/'}
+2019-07-17 18:36:46,065 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.43.169
+2019-07-17 18:36:48,011 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.43.169
+2019-07-17 18:36:48,094 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.43.169
+2019-07-17 18:36:49,851 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.43.169
+2019-07-17 18:48:19,550 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-07-17 18:48:20,994 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {}
+2019-07-17 18:50:43,853 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2019-07-17 18:50:51,599 - octoprint.util.comm - WARNING - Received an error from the printer's firmware: Printer halted. kill() called!
+| Last lines in terminal:
+| Recv:  T:225.00 /225.00 B:59.92 /60.00 @:24 B@:50
+| Recv:  T:225.00 /225.00 B:59.99 /60.00 @:24 B@:32
+| Recv:  T:225.00 /225.00 B:60.02 /60.00 @:24 B@:22
+| Recv:  T:224.96 /225.00 B:59.95 /60.00 @:25 B@:44
+| Recv:  T:225.00 /225.00 B:60.05 /60.00 @:24 B@:15
+| Recv:  T:225.06 /225.00 B:59.90 /60.00 @:23 B@:60
+| Recv:  T:225.00 /225.00 B:59.97 /60.00 @:24 B@:36
+| Recv:  T:225.00 /225.00 B:59.86 /60.00 @:24 B@:71
+| Recv:  T:225.00 /225.00 B:60.01 /60.00 @:24 B@:25
+| Send: G28
+| Recv:  T:225.00 /225.00 B:60.02 /60.00 @:24 B@:21
+| Recv: echo:busy: processing
+| Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+| Recv:  T:225.00 /225.00 B:60.03 /60.00 @:24 B@:18
+| Recv: echo:busy: processing
+| Recv:  T:224.96 /225.00 B:60.03 /60.00 @:24 B@:18
+| Recv: echo:busy: processing
+| Recv:  T:225.00 /225.00 B:60.07 /60.00 @:24 B@:7
+| Recv: echo:busy: processing
+| Recv: Error:Printer halted. kill() called!
+2019-07-17 18:50:51,614 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Error: Printer halted. kill() called!"
+2019-07-17 18:50:51,636 - octoprint.util.comm - INFO - Changing monitoring state from "Error: Printer halted. kill() called!" to "Offline (Error: Printer halted. kill() called!)"
+2019-07-17 18:50:55,182 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2019-07-17 18:50:55,187 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-07-17 18:50:55,191 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-07-17 18:50:56,098 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-07-17 18:50:58,232 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2019-07-17 18:50:58,236 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-07-17 18:50:58,263 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 1.1.9 (Github)"
+2019-07-17 18:50:58,279 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2019-07-17 18:50:59,506 - octoprint.plugins.tracking - INFO - Sent tracking event printer_connected, payload: {u'printer_baudrate': 115200, u'printer_port': u'/dev/ttyACM0', 'firmware_name': 'Marlin 1.1.9 (Github)'}
+2019-07-17 18:51:18,583 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2019-07-17 18:51:44,679 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2019-07-17 19:03:19,555 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-07-17 19:03:20,926 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {}
+2019-07-17 19:18:19,556 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-07-17 19:18:20,744 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {}
+2019-07-17 19:23:12,717 - octoprint.filemanager.analysis - INFO - Starting analysis of local:CFDMP_pernaOculos.gcode
+2019-07-17 19:23:12,723 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /opt/OctoPrint/venv/bin/python2 -m octoprint analysis gcode --speed-x=4000 --speed-y=4000 --max-t=10 --throttle=0.0 --throttle-lines=100 /opt/OctoPrint/.octoprint/uploads/CFDMP_pernaOculos.gcode
+2019-07-17 19:23:14,343 - octoprint.filemanager.analysis - INFO - Analysis of entry local:CFDMP_pernaOculos.gcode finished, needed 1.63s
+2019-07-17 19:23:31,487 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Printing"
+2019-07-17 19:23:31,497 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-07-17 19:23:35,070 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': 'f09b77310d4a81906d319347531a39e1bcff5651'}
+2019-07-17 19:23:59,849 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2019-07-17 19:24:01,366 - octoprint.plugins.tracking - INFO - Sent tracking event print_cancelled, payload: {'origin': 'local', 'file': 'f09b77310d4a81906d319347531a39e1bcff5651'}
+2019-07-17 19:24:02,820 - octoprint.plugins.tracking - INFO - Sent tracking event print_failed, payload: {'origin': 'local', 'reason': 'cancelled', 'file': 'f09b77310d4a81906d319347531a39e1bcff5651', 'elapsed': 28}
+2019-07-17 19:26:19,305 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2019-07-17 19:30:22,590 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Printing"
+2019-07-17 19:30:22,605 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-07-17 19:30:24,066 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': 'f09b77310d4a81906d319347531a39e1bcff5651'}
+2019-07-17 19:32:15,434 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Pausing"
+2019-07-17 19:32:16,476 - octoprint.util.comm - INFO - Changing monitoring state from "Pausing" to "Paused"
+2019-07-17 19:32:29,726 - octoprint.util.comm - INFO - Changing monitoring state from "Paused" to "Resuming"
+2019-07-17 19:32:29,736 - octoprint.util.comm - INFO - Changing monitoring state from "Resuming" to "Printing"
+2019-07-17 19:33:19,557 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-07-17 19:33:20,989 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {}
+2019-07-17 19:35:14,409 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2019-07-17 19:35:15,872 - octoprint.plugins.tracking - INFO - Sent tracking event print_cancelled, payload: {'origin': 'local', 'file': 'f09b77310d4a81906d319347531a39e1bcff5651'}
+2019-07-17 19:35:17,074 - octoprint.plugins.tracking - INFO - Sent tracking event print_failed, payload: {'origin': 'local', 'reason': 'cancelled', 'file': 'f09b77310d4a81906d319347531a39e1bcff5651', 'elapsed': 277}
+2019-07-17 19:35:21,210 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2019-07-17 19:41:16,032 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Printing"
+2019-07-17 19:41:16,054 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-07-17 19:41:18,509 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': 'f09b77310d4a81906d319347531a39e1bcff5651'}
+2019-07-17 19:48:19,558 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-07-17 19:48:21,095 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {}
+2019-07-17 20:02:18,216 - octoprint.util.comm - INFO - Finished in 1262.184 s.
+2019-07-17 20:02:18,218 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Finishing"
+2019-07-17 20:02:18,246 - octoprint.util.comm - INFO - Changing monitoring state from "Finishing" to "Operational"
+2019-07-17 20:02:19,701 - octoprint.plugins.tracking - INFO - Sent tracking event print_done, payload: {'origin': 'local', 'file': 'f09b77310d4a81906d319347531a39e1bcff5651', 'elapsed': 1262}
+2019-07-17 20:03:19,560 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-07-17 20:03:20,953 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {}
+2019-07-17 20:18:19,570 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-07-17 20:18:21,152 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {}
+2019-07-17 20:33:19,576 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-07-17 20:33:20,935 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {}
+2019-07-17 20:39:42,802 - octoprint.server.api.system - INFO - Performing command for core:shutdown: sudo shutdown -h now
+2019-07-17 20:39:43,708 - octoprint.server - INFO - Shutting down...
+2019-07-17 20:39:43,977 - octoprint.events - INFO - Processing shutdown event, this will be our last event
+2019-07-17 20:39:43,979 - octoprint.events - INFO - Event loop shut down
+2019-07-17 20:39:43,988 - octoprint.server - INFO - Goodbye!
+2019-07-17 20:39:49,275 - octoprint.startup - INFO - ******************************************************************************
+2019-07-17 20:39:49,276 - octoprint.startup - INFO - Starting OctoPrint 1.3.10
+2019-07-17 20:39:49,276 - octoprint.startup - INFO - ******************************************************************************
+2019-07-17 20:39:49,317 - octoprint.startup - INFO - We don't appear to be online, not fetching plugin blacklist
+2019-07-17 20:39:49,356 - octoprint.plugin.core - INFO - Loading plugins from /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins, /opt/OctoPrint/.octoprint/plugins and installed plugin packages...
+2019-07-17 20:39:50,075 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin did not pass check, not loading.
+2019-07-17 20:39:50,779 - octoprint.plugins.discovery - INFO - pybonjour is not installed, Zeroconf Discovery won't be available
+2019-07-17 20:39:50,789 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 23 hook handlers
+2019-07-17 20:39:50,847 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2019-07-17 20:39:50,872 - octoprint.server - INFO - Intermediary server started
+2019-07-17 20:39:50,873 - octoprint.plugin.core - INFO - Loading plugins from /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins, /opt/OctoPrint/.octoprint/plugins and installed plugin packages...
+2019-07-17 20:39:50,881 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin did not pass check, not loading.
+2019-07-17 20:39:50,953 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 23 hook handlers
+2019-07-17 20:39:50,971 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /opt/OctoPrint/.octoprint/uploads...
+2019-07-17 20:39:51,203 - octoprint.filemanager.storage - INFO - ... file metadata for /opt/OctoPrint/.octoprint/uploads initialized successfully.
+2019-07-17 20:39:51,213 - octoprint.plugins.tracking - INFO - Initialized anonymous tracking
+2019-07-17 20:39:51,260 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2019-07-17 20:39:52,387 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-07-17 20:39:53,168 - octoprint.util.pip - INFO - Version of pip is 18.0
+2019-07-17 20:39:53,169 - octoprint.util.pip - INFO - pip installs to /opt/OctoPrint/venv/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-07-17 20:39:53,170 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-07-17 20:39:53,174 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2019-07-17 20:39:53,186 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Bed Visualizer (0.1.7) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_bedlevelvisualizer
+|  Core Wizard (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  CuraEngine (<= 15.04) (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/cura
+|  Custom Control Editor (0.2.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_customControl
+|  Discovery (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Force Login (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  Logging (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Navbar Temperature Plugin (0.11) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_navbartemp
+|  Plugin Manager (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  Slic3r (1.1.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_slic3r
+|  Software Update (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  STL Viewer (0.4.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_stlviewer
+|  Virtual Printer (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2019-07-17 20:39:53,201 - octoprint.environment - INFO - Detected environment is Python 2.7.15rc1 under Linux (linux2). Details:
+|  hardware:
+|    cores: 8
+|    freq: 1750.0
+|    ram: 2091446272
+|  os:
+|    id: linux
+|    platform: linux2
+|  python:
+|    pip: '18.0'
+|    version: 2.7.15rc1
+|    virtualenv: /opt/OctoPrint/venv
+2019-07-17 20:39:53,209 - octoprint.server - INFO - Reset webasset folder /opt/OctoPrint/.octoprint/generated/webassets...
+2019-07-17 20:39:53,224 - octoprint.server - INFO - Reset webasset folder /opt/OctoPrint/.octoprint/generated/.webassets-cache...
+2019-07-17 20:39:53,426 - octoprint.server - INFO - Shutting down intermediary server...
+2019-07-17 20:39:53,878 - octoprint.server - INFO - Intermediary server shut down
+2019-07-17 20:39:53,887 - octoprint.events - INFO - Processing startup event, this is our first event
+2019-07-17 20:39:53,892 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2019-07-17 20:39:53,895 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2019-07-17 20:39:53,908 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2019-07-17 20:39:53,981 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured or does not exist (currently set to None), Cura will not be selectable for slicing
+2019-07-17 20:39:53,992 - octoprint.server - INFO - Listening on http://[::]:5000
+2019-07-17 20:39:53,998 - octoprint.plugins.bedlevelvisualizer - INFO - OctoPrint-BedLevelVisualizer loaded!
+2019-07-17 20:39:54,003 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2019-07-17 20:39:54,009 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-07-17 20:39:54,018 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-07-17 20:39:54,109 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2019-07-17 20:39:54,476 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2019-07-17 20:39:54,894 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-07-17 20:39:54,895 - octoprint.util.pip - INFO - pip installs to /opt/OctoPrint/venv/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-07-17 20:39:54,896 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-07-17 20:39:54,957 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-07-17 20:39:55,735 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-07-17 20:39:55,768 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-07-17 20:39:56,557 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-07-17 20:39:56,560 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-07-17 20:39:56,562 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-07-17 20:39:57,035 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2019-07-17 20:39:57,039 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-07-17 20:39:57,066 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 1.1.9 (Github)"
+2019-07-17 20:39:57,074 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2019-07-17 20:39:57,732 - octoprint.util.pip - INFO - pip installs to /opt/OctoPrint/venv/lib/python2.7/site-packages/ (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-07-17 20:39:57,732 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-07-17 20:39:57,811 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2019-07-17 20:39:57,812 - octoprint.plugins.stlviewer - INFO - STL Viewer loaded!
+2019-07-17 20:39:57,835 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://192.168.43.32:5000/'}
+2019-07-17 20:40:04,960 - octoprint.server.preemptive_cache - INFO - ... done in 7.12s

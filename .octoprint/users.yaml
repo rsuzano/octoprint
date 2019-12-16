@@ -1,0 +1,8 @@
+rsuzano:
+  active: true
+  apikey: null
+  password: c8342d8ce5826d9f8dd817cf4807536fced7bebaef53f002a4235d559d35e0a9deb01ceb83d11ffc978308e5eb0e12c59384d13a3a17a473997124907ce35aea
+  roles:
+  - user
+  - admin
+  settings: {}

@@ -1,0 +1,262 @@
+accessControl:
+  salt: FleOVcYfey5UOOAxnVOJi7CLawkVVz1s
+api:
+  allowCrossOrigin: true
+  key: DFA5B7B2B1EC4A58AD5ED3A68ACAD510
+controls:
+- children:
+  - children:
+    - command: M906 X%(xcurr)s Y%(ycurr)s Z%(zcurr)s E%(ecurr)s
+      confirm: null
+      input:
+      - default: '350'
+        name: X Current
+        parameter: xcurr
+        slider: false
+      - default: '350'
+        name: Y Current
+        parameter: ycurr
+        slider: false
+      - default: '350'
+        name: Z Current
+        parameter: zcurr
+        slider: false
+      - default: '350'
+        name: E Current
+        parameter: ecurr
+        slider: false
+      name: Set
+    layout: vertical
+    name: Driver Current
+    offset: '0'
+    width: '4'
+  - children:
+    - command: M913 X%(xthr)s Y%(ythr)s Z%(zthr)s
+      confirm: null
+      input:
+      - default: '120'
+        name: X threshold
+        parameter: xthr
+        slider: false
+      - default: '120'
+        name: Y threshold
+        parameter: ythr
+        slider: false
+      - default: '120'
+        name: Z threshold
+        parameter: zthr
+        slider: false
+      name: Set
+    layout: vertical
+    name: Trheshold
+    width: '4'
+  layout: horizontal_grid
+  name: TMC2130
+plugins:
+  announcements:
+    _config_version: 1
+    channels:
+      _blog:
+        read_until: 1574955000
+      _important:
+        read_until: 1521111600
+      _octopi:
+        read_until: 1573722900
+      _plugins:
+        read_until: 1575849600
+      _releases:
+        read_until: 1576158300
+  bedlevelvisualizer:
+    command: 'M155 S30
+
+      G29 T
+
+      M155 S3'
+    mesh_timestamp: 04/09/2018 17:49:14
+    stored_mesh:
+    - - '-0.778'
+      - '-0.628'
+      - '-0.531'
+      - '-0.391'
+      - '-0.281'
+      - '-0.128'
+      - '+0.038'
+      - '+0.196'
+      - '+0.373'
+      - '+0.556'
+    - - '-0.728'
+      - '-0.576'
+      - '-0.451'
+      - '-0.339'
+      - '-0.222'
+      - '-0.066'
+      - '+0.106'
+      - '+0.290'
+      - '+0.457'
+      - '+0.620'
+    - - '-0.749'
+      - '-0.582'
+      - '-0.469'
+      - '-0.335'
+      - '-0.197'
+      - '-0.018'
+      - '+0.147'
+      - '+0.322'
+      - '+0.498'
+      - '+0.672'
+    - - '-0.705'
+      - '-0.534'
+      - '-0.396'
+      - '-0.277'
+      - '-0.117'
+      - '+0.037'
+      - '+0.222'
+      - '+0.385'
+      - '+0.570'
+      - '+0.744'
+    - - '-0.681'
+      - '-0.516'
+      - '-0.372'
+      - '-0.251'
+      - '-0.076'
+      - '+0.081'
+      - '+0.249'
+      - '+0.415'
+      - '+0.591'
+      - '+0.802'
+    - - '-0.632'
+      - '-0.452'
+      - '-0.325'
+      - '-0.188'
+      - '-0.024'
+      - '+0.145'
+      - '+0.333'
+      - '+0.499'
+      - '+0.674'
+      - '+0.875'
+    - - '-0.604'
+      - '-0.429'
+      - '-0.295'
+      - '-0.146'
+      - '+0.021'
+      - '+0.169'
+      - '+0.376'
+      - '+0.549'
+      - '+0.732'
+      - '+0.935'
+    - - '-0.533'
+      - '-0.350'
+      - '-0.212'
+      - '-0.061'
+      - '+0.110'
+      - '+0.271'
+      - '+0.465'
+      - '+0.622'
+      - '+0.826'
+      - '+1.014'
+    - - '-0.475'
+      - '-0.331'
+      - '-0.145'
+      - '+0.002'
+      - '+0.190'
+      - '+0.353'
+      - '+0.530'
+      - '+0.715'
+      - '+0.909'
+      - '+1.114'
+    - - '-0.418'
+      - '-0.232'
+      - '-0.053'
+      - '+0.103'
+      - '+0.268'
+      - '+0.466'
+      - '+0.629'
+      - '+0.833'
+      - '+1.031'
+      - '+1.229'
+    stored_mesh_x:
+    - 0
+    - 24
+    - 49
+    - 73
+    - 98
+    - 122
+    - 147
+    - 171
+    - 196
+    - 220
+    stored_mesh_y:
+    - 0
+    - 24
+    - 49
+    - 73
+    - 98
+    - 122
+    - 147
+    - 171
+    - 196
+    - 220
+    stored_mesh_z_height: 180
+  discovery:
+    upnpUuid: 9e5df2df-bb13-4947-b22c-36ad0e657405
+  errortracking:
+    unique_id: e51ee5ef-c26d-44e4-a7a5-e3e438094259
+  marlin_flasher:
+    _config_version: 1
+  softwareupdate:
+    _config_version: 6
+    check_providers:
+      DryRun: DryRun
+      Slic3r: slic3r
+      bedlevelvisualizer: bedlevelvisualizer
+      customcontrol: customControl
+      marlin_flasher: marlin_flasher
+      navbartemp: navbartemp
+  tracking:
+    enabled: true
+    unique_id: 2b50b3f6-00d6-4e4f-925c-8de49b7a06e5
+printerProfiles:
+  default: _default
+serial:
+  autoconnect: true
+  baudrate: 115200
+  port: /dev/ttyACM0
+server:
+  commands:
+    serverRestartCommand: sudo service octoprint restart
+    systemRestartCommand: sudo reboot
+    systemShutdownCommand: sudo shutdown -h now
+  firstRun: false
+  onlineCheck:
+    enabled: true
+  pluginBlacklist:
+    enabled: true
+  secretKey: IYiFyfIiDFGJTOkwp3ShVHPLFfGkx3Qs
+  seenWizards:
+    bedlevelvisualizer: null
+    corewizard: 3
+    cura: null
+    tracking: null
+slicing:
+  defaultProfiles:
+    slic3r: 3dfila.abs.anet8
+temperature:
+  profiles:
+  - bed: 100
+    chamber: null
+    extruder: 210
+    name: ABS
+  - bed: 60
+    chamber: null
+    extruder: 180
+    name: PLA
+  sendAutomatically: true
+terminalFilters:
+- name: Suppress temperature messages
+  regex: '(Send: (N\d+\s+)?M105)|(Recv:\s+(ok\s+((P|B|N)\d+\s+)*)?(B|T\d*):\d+)'
+- name: Suppress SD status messages
+  regex: '(Send: (N\d+\s+)?M27)|(Recv: SD printing byte)|(Recv: Not SD printing)'
+- name: Suppress wait responses
+  regex: 'Recv: wait'
+- name: Suppress Movement messages
+  regex: '(Send: (Nd+s+)?G1)|(Recv:s+(oks+)?.*(B|Td*):d+)'

@@ -1,0 +1,393 @@
+2019-09-21 19:55:10,801 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-09-21 19:55:10,813 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2019-09-21 19:55:10,814 - octoprint.server - INFO - OctoPrint 1.3.11
+2019-09-21 19:55:10,821 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Bed Visualizer (0.1.10) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_bedlevelvisualizer
+|  Core Wizard (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Custom Control Editor (0.2.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_customControl
+|  Discovery (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  Force Login (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  Logging (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Navbar Temperature Plugin (0.11) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_navbartemp
+|  Plugin Manager (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  Slic3r (1.2) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_slic3r
+|  Software Update (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  STL Viewer (0.4.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_stlviewer
+|  Virtual Printer (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2019-09-21 19:55:10,831 - octoprint.environment - INFO - Detected environment is Python 2.7.15rc1 under Linux (linux2). Details:
+|  hardware:
+|    cores: 8
+|    freq: 1750.0
+|    ram: 2091446272
+|  os:
+|    id: linux
+|    platform: linux2
+|  python:
+|    pip: '18.0'
+|    version: 2.7.15rc1
+|    virtualenv: /opt/OctoPrint/venv
+2019-09-21 19:55:10,832 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2019-09-21 19:55:10,832 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2019-09-21 19:55:11,808 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 207}
+2019-09-21 19:55:12,071 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2019-09-21 19:55:12,171 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 1.3s
+2019-09-21 19:55:12,190 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.28
+2019-09-21 19:55:12,458 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2019-09-21 19:55:13,413 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 1.0s
+2019-09-21 19:55:13,626 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2019-09-21 19:55:14,479 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 1.0s
+2019-09-21 19:55:15,502 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.98s
+2019-09-21 19:55:16,103 - octoprint.server.api - INFO - Actively logging in user rsuzano from 192.168.100.28
+2019-09-21 19:55:16,196 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.100.28
+2019-09-21 19:55:16,282 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.28
+2019-09-21 19:55:16,590 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 1.0s
+2019-09-21 19:55:18,835 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.28
+2019-09-21 19:55:18,995 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.100.28
+2019-09-21 19:55:20,986 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.28
+2019-09-21 19:55:36,786 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2019-09-21 19:55:36,791 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-09-21 19:55:36,800 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-09-21 19:55:37,695 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-09-21 19:55:39,824 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2019-09-21 19:55:39,828 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-09-21 19:55:39,856 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 1.1.9 (Github)"
+2019-09-21 19:55:39,866 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2019-09-21 19:55:40,594 - octoprint.plugins.tracking - INFO - Sent tracking event printer_connected, payload: {u'printer_baudrate': 115200, u'printer_port': u'/dev/ttyACM0', 'firmware_name': 'Marlin 1.1.9 (Github)'}
+2019-09-21 20:02:32,946 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2019-09-21 20:02:53,537 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2019-09-21 20:10:10,807 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-09-21 20:10:11,554 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 1107}
+2019-09-21 20:13:00,897 - octoprint.filemanager.analysis - INFO - Starting analysis of local:AA6_SuporteDuchaHigienica.gcode
+2019-09-21 20:13:00,904 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /opt/OctoPrint/venv/bin/python2 -m octoprint analysis gcode --speed-x=4000 --speed-y=4000 --max-t=10 --throttle=0.0 --throttle-lines=100 /opt/OctoPrint/.octoprint/uploads/AA6_SuporteDuchaHigienica.gcode
+2019-09-21 20:13:03,141 - octoprint.filemanager.analysis - INFO - Analysis of entry local:AA6_SuporteDuchaHigienica.gcode finished, needed 2.24s
+2019-09-21 20:13:04,337 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: AA6_SuporteDuchaHigienica.gcode, owner: rsuzano, user: rsuzano
+2019-09-21 20:13:31,846 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2019-09-21 20:13:31,850 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: AA6_SuporteDuchaHigienica.gcode, owner: rsuzano, user: rsuzano
+2019-09-21 20:13:31,867 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-09-21 20:13:31,874 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2019-09-21 20:13:32,717 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': '37c3eb3f7e2382bc8638c5d489853d238671b6fc'}
+2019-09-21 20:14:20,638 - octoprint.util.comm - WARNING - Received an error from the printer's firmware: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!
+| Last lines in terminal:
+| Recv: echo:busy: processing
+| Recv:  T:171.68 /230.00 B:105.19 /110.00 @:127 B@:127 W:?
+| Recv:  T:174.75 /230.00 B:105.10 /110.00 @:127 B@:127 W:?
+| Recv:  T:176.75 /230.00 B:105.07 /110.00 @:127 B@:127
+| Recv: echo:busy: processing
+| Recv:  T:177.73 /230.00 B:105.06 /110.00 @:127 B@:127 W:?
+| Recv:  T:180.70 /230.00 B:104.99 /110.00 @:127 B@:127 W:?
+| Recv:  T:182.86 /230.00 B:104.97 /110.00 @:127 B@:127
+| Recv: echo:busy: processing
+| Recv:  T:183.89 /230.00 B:104.96 /110.00 @:127 B@:127 W:?
+| Recv:  T:187.01 /230.00 B:104.98 /110.00 @:127 B@:127 W:?
+| Recv:  T:189.64 /230.00 B:104.97 /110.00 @:127 B@:127
+| Recv: echo:busy: processing
+| Recv:  T:190.06 /230.00 B:104.96 /110.00 @:127 B@:127 W:?
+| Recv:  T:193.24 /230.00 B:105.00 /110.00 @:127 B@:127 W:?
+| Recv:  T:195.65 /230.00 B:105.05 /110.00 @:127 B@:127
+| Recv: echo:busy: processing
+| Recv:  T:196.16 /230.00 B:105.08 /110.00 @:127 B@:127 W:?
+| Recv: Error:Thermal Runaway, system stopped! Heater_ID: bed
+| Recv: Error:Printer halted. kill() called!
+2019-09-21 20:14:20,640 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!"
+2019-09-21 20:14:20,670 - octoprint.util.comm - INFO - Changing monitoring state from "Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!" to "Offline (Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!)"
+2019-09-21 20:14:21,498 - octoprint.plugins.tracking - INFO - Sent tracking event commerror_firmware, payload: {'commerror_text': 'Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!'}
+2019-09-21 20:14:22,356 - octoprint.plugins.tracking - INFO - Sent tracking event print_failed, payload: {'origin': 'local', 'reason': 'error', 'commerror_text': 'Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!', 'file': '37c3eb3f7e2382bc8638c5d489853d238671b6fc', 'elapsed': 48}
+2019-09-21 20:14:24,413 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2019-09-21 20:14:24,419 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-09-21 20:14:24,433 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-09-21 20:14:25,332 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-09-21 20:14:27,461 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2019-09-21 20:14:27,465 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-09-21 20:14:27,496 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 1.1.9 (Github)"
+2019-09-21 20:14:27,528 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2019-09-21 20:14:28,368 - octoprint.plugins.tracking - INFO - Sent tracking event printer_connected, payload: {u'printer_baudrate': 115200, u'printer_port': u'/dev/ttyACM0', 'firmware_name': 'Marlin 1.1.9 (Github)'}
+2019-09-21 20:16:48,348 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: Brave_Vihelmo_(2).gcode, owner: rsuzano, user: rsuzano
+2019-09-21 20:16:50,125 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: AA6_SuporteDuchaHigienica.gcode, owner: rsuzano, user: rsuzano
+2019-09-21 20:16:52,790 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2019-09-21 20:16:52,794 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: AA6_SuporteDuchaHigienica.gcode, owner: rsuzano, user: rsuzano
+2019-09-21 20:16:52,804 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-09-21 20:16:52,817 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2019-09-21 20:16:53,673 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': '37c3eb3f7e2382bc8638c5d489853d238671b6fc'}
+2019-09-21 20:16:54,872 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2019-09-21 20:17:02,874 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2019-09-21 20:21:06,079 - octoprint.util.comm - INFO - Pausing print job due to command M0
+2019-09-21 20:21:06,080 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Pausing"
+2019-09-21 20:21:06,083 - octoprint.util.comm - INFO - Not sending M0 to printer, it's configured as a blocked command
+2019-09-21 20:21:06,109 - octoprint.printer.standard.job - INFO - Print job paused - origin: local, path: AA6_SuporteDuchaHigienica.gcode, owner: rsuzano, user: None
+2019-09-21 20:21:06,118 - octoprint.util.comm - INFO - Changing monitoring state from "Pausing" to "Paused"
+2019-09-21 20:22:05,971 - octoprint.util.comm - INFO - Changing monitoring state from "Paused" to "Resuming"
+2019-09-21 20:22:05,974 - octoprint.printer.standard.job - INFO - Print job resumed - origin: local, path: AA6_SuporteDuchaHigienica.gcode, owner: rsuzano, user: rsuzano
+2019-09-21 20:22:05,982 - octoprint.util.comm - INFO - Changing monitoring state from "Resuming" to "Printing"
+2019-09-21 20:22:06,046 - octoprint.util.comm - INFO - Pausing print job due to command M0
+2019-09-21 20:22:06,049 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Pausing"
+2019-09-21 20:22:06,054 - octoprint.util.comm - INFO - Not sending M0 to printer, it's configured as a blocked command
+2019-09-21 20:22:12,483 - octoprint.printer.standard.job - INFO - Print job paused - origin: local, path: AA6_SuporteDuchaHigienica.gcode, owner: rsuzano, user: None
+2019-09-21 20:22:12,497 - octoprint.util.comm - INFO - Changing monitoring state from "Pausing" to "Paused"
+2019-09-21 20:22:23,023 - octoprint.util.comm - INFO - Changing monitoring state from "Paused" to "Resuming"
+2019-09-21 20:22:23,030 - octoprint.printer.standard.job - INFO - Print job resumed - origin: local, path: AA6_SuporteDuchaHigienica.gcode, owner: rsuzano, user: rsuzano
+2019-09-21 20:22:23,037 - octoprint.util.comm - INFO - Changing monitoring state from "Resuming" to "Printing"
+2019-09-21 20:25:10,808 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-09-21 20:25:11,677 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 2007}
+2019-09-21 20:31:10,440 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-09-21 20:31:10,796 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-09-21 20:32:20,729 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-09-21 20:33:36,477 - octoprint.util.comm - INFO - Finished in 1003.689 s.
+2019-09-21 20:33:36,478 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Finishing"
+2019-09-21 20:33:36,486 - octoprint.printer.standard.job - INFO - Print job done - origin: local, path: AA6_SuporteDuchaHigienica.gcode, owner: rsuzano
+2019-09-21 20:33:36,504 - octoprint.util.comm - INFO - Changing monitoring state from "Finishing" to "Operational"
+2019-09-21 20:33:37,338 - octoprint.plugins.tracking - INFO - Sent tracking event print_done, payload: {'origin': 'local', 'file': '37c3eb3f7e2382bc8638c5d489853d238671b6fc', 'elapsed': 926}
+2019-09-21 20:40:10,817 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-09-21 20:40:11,674 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 2907}
+2019-09-21 20:41:42,870 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-09-21 20:41:43,197 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-09-21 20:41:53,188 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-09-21 20:47:41,188 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-09-21 20:47:41,359 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-09-21 20:47:47,358 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-09-21 20:47:47,360 - tornado.application - ERROR - Exception in callback <functools.partial object at 0xae00e570>
+Traceback (most recent call last):
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/tornado/ioloop.py", line 605, in _run_callback
+    ret = callback()
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/tornado/stack_context.py", line 277, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/vendor/sockjs/tornado/transports/rawwebsocket.py", line 87, in <lambda>
+    self.server.io_loop.add_callback(lambda: self.send_pack(message, binary))
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/vendor/sockjs/tornado/transports/rawwebsocket.py", line 82, in send_pack
+    self.write_message(message, binary)
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/tornado/websocket.py", line 249, in write_message
+    raise WebSocketClosedError()
+WebSocketClosedError
+2019-09-21 20:55:10,830 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-09-21 20:55:12,761 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 3807}
+2019-09-21 21:05:11,610 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-09-21 21:05:11,898 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-09-21 21:05:16,974 - octoprint.server.api.system - INFO - Performing command for core:shutdown: sudo shutdown -h now
+2019-09-21 21:05:17,853 - octoprint.server - INFO - Shutting down...
+2019-09-21 21:05:17,900 - octoprint.events - INFO - Processing shutdown event, this will be our last event
+2019-09-21 21:05:17,902 - octoprint.events - INFO - Event loop shut down
+2019-09-21 21:05:17,910 - octoprint.server - INFO - Goodbye!
+2019-09-25 02:55:22,085 - octoprint.startup - INFO - ******************************************************************************
+2019-09-25 02:55:22,087 - octoprint.startup - INFO - Starting OctoPrint 1.3.11
+2019-09-25 02:55:22,087 - octoprint.startup - INFO - ******************************************************************************
+2019-09-25 02:55:22,230 - octoprint.startup - INFO - We don't appear to be online, not fetching plugin blacklist
+2019-09-25 02:55:22,272 - octoprint.plugin.core - INFO - Loading plugins from /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins, /opt/OctoPrint/.octoprint/plugins and installed plugin packages...
+2019-09-25 02:55:24,340 - octoprint.plugin.core - ERROR - Error loading plugin pluginmanager
+Traceback (most recent call last):
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/plugin/core.py", line 863, in _import_plugin
+    instance = imp.load_module(module_name, f, filename, description)
+  File "/opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager/__init__.py", line 14, in <module>
+    from octoprint.server.util.flask import restricted_access, with_revalidation_checking, check_etag
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 66, in <module>
+    from octoprint.printer.profile import PrinterProfileManager
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/printer/__init__.py", line 28, in <module>
+    from octoprint.filemanager import FileDestinations
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/__init__.py", line 18, in <module>
+    from .storage import LocalFileStorage
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/storage.py", line 27, in <module>
+    from slugify import Slugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/__init__.py", line 2, in <module>
+    from slugify.main import Slugify, UniqueSlugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/main.py", line 6, in <module>
+    import regex as re
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/regex.py", line 389, in <module>
+    import _regex_core
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex_core.py", line 21, in <module>
+    import _regex
+ImportError: /opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex.so: wrong ELF class: ELFCLASS32
+2019-09-25 02:55:24,540 - octoprint.plugin.core - ERROR - Error loading plugin softwareupdate
+Traceback (most recent call last):
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/plugin/core.py", line 863, in _import_plugin
+    instance = imp.load_module(module_name, f, filename, description)
+  File "/opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate/__init__.py", line 27, in <module>
+    from octoprint.server.util.flask import restricted_access, with_revalidation_checking, check_etag
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 66, in <module>
+    from octoprint.printer.profile import PrinterProfileManager
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/printer/__init__.py", line 28, in <module>
+    from octoprint.filemanager import FileDestinations
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/__init__.py", line 18, in <module>
+    from .storage import LocalFileStorage
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/storage.py", line 27, in <module>
+    from slugify import Slugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/__init__.py", line 2, in <module>
+    from slugify.main import Slugify, UniqueSlugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/main.py", line 6, in <module>
+    import regex as re
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/regex.py", line 389, in <module>
+    import _regex_core
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex_core.py", line 21, in <module>
+    import _regex
+ImportError: /opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex.so: wrong ELF class: ELFCLASS32
+2019-09-25 02:55:24,702 - octoprint.plugin.core - ERROR - Error loading plugin action_command_prompt
+Traceback (most recent call last):
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/plugin/core.py", line 863, in _import_plugin
+    instance = imp.load_module(module_name, f, filename, description)
+  File "/opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt/__init__.py", line 9, in <module>
+    from octoprint.server import user_permission
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 66, in <module>
+    from octoprint.printer.profile import PrinterProfileManager
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/printer/__init__.py", line 28, in <module>
+    from octoprint.filemanager import FileDestinations
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/__init__.py", line 18, in <module>
+    from .storage import LocalFileStorage
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/storage.py", line 27, in <module>
+    from slugify import Slugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/__init__.py", line 2, in <module>
+    from slugify.main import Slugify, UniqueSlugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/main.py", line 6, in <module>
+    import regex as re
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/regex.py", line 389, in <module>
+    import _regex_core
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex_core.py", line 21, in <module>
+    import _regex
+ImportError: /opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex.so: wrong ELF class: ELFCLASS32
+2019-09-25 02:55:24,761 - octoprint.plugin.core - ERROR - Error loading plugin appkeys
+Traceback (most recent call last):
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/plugin/core.py", line 863, in _import_plugin
+    instance = imp.load_module(module_name, f, filename, description)
+  File "/opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys/__init__.py", line 16, in <module>
+    from octoprint.server.util.flask import restricted_access, no_firstrun_access
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 66, in <module>
+    from octoprint.printer.profile import PrinterProfileManager
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/printer/__init__.py", line 28, in <module>
+    from octoprint.filemanager import FileDestinations
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/__init__.py", line 18, in <module>
+    from .storage import LocalFileStorage
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/storage.py", line 27, in <module>
+    from slugify import Slugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/__init__.py", line 2, in <module>
+    from slugify.main import Slugify, UniqueSlugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/main.py", line 6, in <module>
+    import regex as re
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/regex.py", line 389, in <module>
+    import _regex_core
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex_core.py", line 21, in <module>
+    import _regex
+ImportError: /opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex.so: wrong ELF class: ELFCLASS32
+2019-09-25 02:55:24,799 - octoprint.plugin.core - ERROR - Error loading plugin printer_safety_check
+Traceback (most recent call last):
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/plugin/core.py", line 863, in _import_plugin
+    instance = imp.load_module(module_name, f, filename, description)
+  File "/opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check/__init__.py", line 10, in <module>
+    from octoprint.server import user_permission
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 66, in <module>
+    from octoprint.printer.profile import PrinterProfileManager
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/printer/__init__.py", line 28, in <module>
+    from octoprint.filemanager import FileDestinations
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/__init__.py", line 18, in <module>
+    from .storage import LocalFileStorage
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/storage.py", line 27, in <module>
+    from slugify import Slugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/__init__.py", line 2, in <module>
+    from slugify.main import Slugify, UniqueSlugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/main.py", line 6, in <module>
+    import regex as re
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/regex.py", line 389, in <module>
+    import _regex_core
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex_core.py", line 21, in <module>
+    import _regex
+ImportError: /opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex.so: wrong ELF class: ELFCLASS32
+2019-09-25 02:55:24,873 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin did not pass check, not loading.
+2019-09-25 02:55:24,949 - octoprint.plugin.core - ERROR - Error loading plugin backup
+Traceback (most recent call last):
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/plugin/core.py", line 863, in _import_plugin
+    instance = imp.load_module(module_name, f, filename, description)
+  File "/opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup/__init__.py", line 11, in <module>
+    from octoprint.server import admin_permission, NO_CONTENT
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 66, in <module>
+    from octoprint.printer.profile import PrinterProfileManager
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/printer/__init__.py", line 28, in <module>
+    from octoprint.filemanager import FileDestinations
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/__init__.py", line 18, in <module>
+    from .storage import LocalFileStorage
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/storage.py", line 27, in <module>
+    from slugify import Slugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/__init__.py", line 2, in <module>
+    from slugify.main import Slugify, UniqueSlugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/main.py", line 6, in <module>
+    import regex as re
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/regex.py", line 389, in <module>
+    import _regex_core
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex_core.py", line 21, in <module>
+    import _regex
+ImportError: /opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex.so: wrong ELF class: ELFCLASS32
+2019-09-25 02:55:25,250 - octoprint.plugin.core - ERROR - Error loading plugin announcements
+Traceback (most recent call last):
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/plugin/core.py", line 863, in _import_plugin
+    instance = imp.load_module(module_name, f, filename, description)
+  File "/opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements/__init__.py", line 23, in <module>
+    from octoprint.server import admin_permission
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 66, in <module>
+    from octoprint.printer.profile import PrinterProfileManager
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/printer/__init__.py", line 28, in <module>
+    from octoprint.filemanager import FileDestinations
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/__init__.py", line 18, in <module>
+    from .storage import LocalFileStorage
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/storage.py", line 27, in <module>
+    from slugify import Slugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/__init__.py", line 2, in <module>
+    from slugify.main import Slugify, UniqueSlugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/main.py", line 6, in <module>
+    import regex as re
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/regex.py", line 389, in <module>
+    import _regex_core
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex_core.py", line 21, in <module>
+    import _regex
+ImportError: /opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex.so: wrong ELF class: ELFCLASS32
+2019-09-25 02:55:25,310 - octoprint.plugin.core - ERROR - Error loading plugin logging
+Traceback (most recent call last):
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/plugin/core.py", line 863, in _import_plugin
+    instance = imp.load_module(module_name, f, filename, description)
+  File "/opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging/__init__.py", line 10, in <module>
+    from octoprint.server import NO_CONTENT, admin_permission
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/server/__init__.py", line 66, in <module>
+    from octoprint.printer.profile import PrinterProfileManager
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/printer/__init__.py", line 28, in <module>
+    from octoprint.filemanager import FileDestinations
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/__init__.py", line 18, in <module>
+    from .storage import LocalFileStorage
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/filemanager/storage.py", line 27, in <module>
+    from slugify import Slugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/__init__.py", line 2, in <module>
+    from slugify.main import Slugify, UniqueSlugify
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/slugify/main.py", line 6, in <module>
+    import regex as re
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/regex.py", line 389, in <module>
+    import _regex_core
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex_core.py", line 21, in <module>
+    import _regex
+ImportError: /opt/OctoPrint/venv/local/lib/python2.7/site-packages/_regex.so: wrong ELF class: ELFCLASS32
+2019-09-25 02:55:25,718 - octoprint.plugin.core - ERROR - Error loading plugin bedlevelvisualizer
+Traceback (most recent call last):
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint/plugin/core.py", line 863, in _import_plugin
+    instance = imp.load_module(module_name, f, filename, description)
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_bedlevelvisualizer/__init__.py", line 6, in <module>
+    import numpy as np
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/numpy/__init__.py", line 142, in <module>
+    from . import add_newdocs
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/numpy/add_newdocs.py", line 13, in <module>
+    from numpy.lib import add_newdoc
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/numpy/lib/__init__.py", line 8, in <module>
+    from .type_check import *
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/numpy/lib/type_check.py", line 11, in <module>
+    import numpy.core.numeric as _nx
+  File "/opt/OctoPrint/venv/local/lib/python2.7/site-packages/numpy/core/__init__.py", line 26, in <module>
+    raise ImportError(msg)
+ImportError: 
+Importing the multiarray numpy extension module failed.  Most
+likely you are trying to import a failed build of numpy.
+If you're working with a numpy git repo, try `git clean -xdf` (removes all
+files not under version control).  Otherwise reinstall numpy.
+
+Original error was: /opt/OctoPrint/venv/local/lib/python2.7/site-packages/numpy/core/multiarray.so: wrong ELF class: ELFCLASS32
+
+2019-09-25 02:55:25,722 - octoprint.plugins.octoprint.plugins.discovery - INFO - pybonjour is not installed, Zeroconf Discovery won't be available
+2019-09-25 02:55:25,731 - octoprint.plugin.core - INFO - Found 10 plugin(s) providing 10 mixin implementations, 9 hook handlers
+2019-09-25 02:55:25,894 - octoprint.startup - CRITICAL - Could not initialize environment detector: /opt/OctoPrint/venv/local/lib/python2.7/site-packages/psutil/_psutil_linux.so: wrong ELF class: ELFCLASS32
+2019-09-25 02:55:25,895 - octoprint.startup - CRITICAL - There was a fatal error starting up OctoPrint.

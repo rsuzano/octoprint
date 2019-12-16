@@ -1,0 +1,226 @@
+{
+    "uploadedFiles": {
+        "display": "\"uploadedFiles\""
+    },
+    "CFDMP_notebookFoot.gcode": {
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 4673.200656311001
+            },
+            "lastPrintTime": {
+                "_default": 4673.200656311001
+            }
+        },
+        "hash": "880c560d97c9e531173ab724a63d530717fe8f4e",
+        "analysis": {
+            "estimatedPrintTime": 4079.3463548660256,
+            "printingArea": {
+                "maxZ": 8.9,
+                "maxX": 174.409,
+                "maxY": 135.95,
+                "minX": 37.85,
+                "minY": 84.05,
+                "minZ": 0.3
+            },
+            "dimensions": {
+                "width": 136.559,
+                "depth": 51.89999999999999,
+                "height": 8.6
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 0.0,
+                    "length": 3983.6717699999995
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1566914239.154998,
+                "printTime": 4673.200656311001,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "AA6_SuporteDuchaHigienica.gcode": {
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 926.8324101790004
+            },
+            "lastPrintTime": {
+                "_default": 926.8324101790004
+            }
+        },
+        "hash": "e4aaa883359d5fab0cab39fd64ce2d04d657beab",
+        "analysis": {
+            "estimatedPrintTime": 536.6624598948217,
+            "printingArea": {
+                "maxZ": 8.9,
+                "maxX": 137.95,
+                "maxY": 128.95,
+                "minX": 82.05,
+                "minY": 91.05,
+                "minZ": 0.3
+            },
+            "dimensions": {
+                "width": 55.89999999999999,
+                "depth": 37.89999999999999,
+                "height": 8.6
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 0.0,
+                    "length": 615.2511399999988
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1569096860.644349,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1569098016.492606,
+                "printTime": 926.8324101790004,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Brave_Vihelmo_(2).gcode": {
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 3920.1550018787384
+            },
+            "lastPrintTime": {
+                "_default": 3920.1550018787384
+            }
+        },
+        "hash": "eb4152e154859e864f158aa6be4af6f6c56ad18d",
+        "display": "Brave Vihelmo (2).gcode",
+        "analysis": {
+            "estimatedPrintTime": 3016.5430602491065,
+            "printingArea": {
+                "maxZ": 20.04,
+                "maxX": 153.4,
+                "maxY": 116.4,
+                "minX": 66.6,
+                "minY": 103.6,
+                "minZ": 0.09
+            },
+            "dimensions": {
+                "width": 86.80000000000001,
+                "depth": 12.800000000000011,
+                "height": 19.95
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 0.0,
+                    "length": 2515.879000001868
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1553870517.413333,
+                "printTime": 3920.1550018787384,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "3DBenchyBoat.gcode": {
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "be7e2dc4a1ce384bdab066af576bd3ef2310ccf7",
+        "analysis": {
+            "estimatedPrintTime": 8703.895748579163,
+            "printingArea": {
+                "maxZ": 47.94,
+                "maxX": 139.894,
+                "maxY": 125.402,
+                "minX": 80.099,
+                "minY": 94.598,
+                "minZ": 0.09
+            },
+            "dimensions": {
+                "width": 59.795,
+                "depth": 30.804000000000002,
+                "height": 47.849999999999994
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 0.0,
+                    "length": 4092.696700000985
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1576454529.28006,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1576506832.718411,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "CFDMP_pernaOculos.gcode": {
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 1262.1918549537659
+            },
+            "lastPrintTime": {
+                "_default": 1262.1918549537659
+            }
+        },
+        "hash": "af9915ec2d7626ccf3cc4d6cab930973b1e334d2",
+        "analysis": {
+            "estimatedPrintTime": 1211.8081500145397,
+            "printingArea": {
+                "maxZ": 3.0,
+                "maxX": 115.948,
+                "maxY": 132.948,
+                "minX": 104.052,
+                "minY": 87.05,
+                "minZ": 0.3
+            },
+            "dimensions": {
+                "width": 11.895999999999987,
+                "depth": 45.89800000000001,
+                "height": 2.7
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 0.0,
+                    "length": 217.81333
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1563391439.900731,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1563392114.431276,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1563393738.227209,
+                "printTime": 1262.1918549537659,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    }
+}

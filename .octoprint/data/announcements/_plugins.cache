@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OctoPrint Plugin Repository</title>
+    <description>The official OctoPrint Plugin Repository</description>
+    <link>http://plugins.octoprint.org/</link>
+    <atom:link href="https://plugins.octoprint.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 13 Dec 2019 12:15:22 +0000</pubDate>
+    <lastBuildDate>Fri, 13 Dec 2019 12:15:22 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+    
+      <item>
+        <title>Prometheus Exporter</title>
+        <description>
+          <![CDATA[
+            A plugin for prometheus compatible metrics endpoint
+            <p><img src="https://plugins.octoprint.org/assets/img/repo-600x400.png"></p>
+            
+          ]]>
+        </description>
+        <pubDate>
+Mon, 09 Dec 2019 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/prometheus_exporter/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/prometheus_exporter/</guid>
+        
+        <category>prometheus</category>
+        
+        <category>grafana</category>
+        
+        <category>monitor</category>
+        
+        <category>monitoring</category>
+        
+        <category>usage</category>
+        
+        <category>status</category>
+        
+      </item>
+    
+      <item>
+        <title>Resource Monitor</title>
+        <description>
+          <![CDATA[
+            A plugin to view the current CPU, RAM, disk and network usage on your system
+            <p><img src="https://plugins.octoprint.org/assets/img/plugins/resource_monitor/cpu.png"></p>
+          ]]>
+        </description>
+        <pubDate>
+Tue, 03 Dec 2019 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/resource_monitor/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/resource_monitor/</guid>
+        
+        <category>resource</category>
+        
+        <category>monitor</category>
+        
+        <category>memory</category>
+        
+        <category>disk</category>
+        
+        <category>network</category>
+        
+        <category>cpu</category>
+        
+        <category>processor</category>
+        
+        <category>usage</category>
+        
+      </item>
+    
+      <item>
+        <title>OctoPrint-MyStromSwitch</title>
+        <description>
+          <![CDATA[
+            Plugin to integrate myStrom Switch into your OctoPrint installation
+            <p><img src="https://plugins.octoprint.org/assets/img/plugins/mystromswitch/sidebar_on_button.png"></p>
+          ]]>
+        </description>
+        <pubDate>
+Tue, 03 Dec 2019 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/mystromswitch/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/mystromswitch/</guid>
+        
+        <category>MyStrom</category>
+        
+        <category>Switch</category>
+        
+        <category>Relay</category>
+        
+      </item>
+    
+      <item>
+        <title>Filament Sensor Revolutions</title>
+        <description>
+          <![CDATA[
+            Use 1 or 2 filament sensors to pause printing or send GCode commands when filament runs out or is jammed.
+            <p><img src="https://plugins.octoprint.org/assets/img/repo-600x400.png"></p>
+            
+          ]]>
+        </description>
+        <pubDate>
+Fri, 29 Nov 2019 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/filamentrevolutions/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/filamentrevolutions/</guid>
+        
+        <category>filament</category>
+        
+        <category>sensor</category>
+        
+      </item>
+    
+      <item>
+        <title>Ultimaker Format Package</title>
+        <description>
+          <![CDATA[
+            This plugin adds support for Ultimaker Format Package (.ufp) files.
+            <p><img src="https://plugins.octoprint.org/assets/img/plugins/UltimakerFormatPackage/screenshot_thumbnail.png"></p>
+          ]]>
+        </description>
+        <pubDate>
+Sat, 16 Nov 2019 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/UltimakerFormatPackage/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/UltimakerFormatPackage/</guid>
+        
+        <category>Ultimaker Format Package</category>
+        
+        <category>ufp</category>
+        
+        <category>Cura</category>
+        
+      </item>
+    
+      <item>
+        <title>The Spaghetti Detective</title>
+        <description>
+          <![CDATA[
+            An essential plugin if you print remotely. Monitor and control your printer over the internet. No port-forwarding or VPN is needed. Best part? AI-based failure detection!
+            <p><img src="https://plugins.octoprint.org/assets/img/plugins/thespaghettidetective/video_preview1.png"></p>
+          ]]>
+        </description>
+        <pubDate>
+Thu, 07 Nov 2019 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/thespaghettidetective/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/thespaghettidetective/</guid>
+        
+        <category>remote</category>
+        
+        <category>monitor</category>
+        
+        <category>monitoring</category>
+        
+        <category>webcam</category>
+        
+        <category>AI</category>
+        
+        <category>Machine Learning</category>
+        
+        <category>phone</category>
+        
+        <category>control</category>
+        
+        <category>port forwarding</category>
+        
+        <category>internet</category>
+        
+      </item>
+    
+      <item>
+        <title>OctoPrint-InfluxDB</title>
+        <description>
+          <![CDATA[
+            Writes temperatures and events to an Influx database.
+            <p><img src="https://plugins.octoprint.org/assets/img/plugins/influxdb/settings.png"></p>
+          ]]>
+        </description>
+        <pubDate>
+Sat, 02 Nov 2019 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/influxdb/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/influxdb/</guid>
+        
+        <category>data</category>
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>OctoPrint-Thingiverse</title>
+        <description>
+          <![CDATA[
+            This plugin creates a new tab where Thingiverse website is embedded.
+            <p><img src="https://plugins.octoprint.org/assets/img/repo-600x400.png"></p>
+            
+          ]]>
+        </description>
+        <pubDate>
+Mon, 28 Oct 2019 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/thingiverse/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/thingiverse/</guid>
+        
+        <category>Thingiverse</category>
+        
+        <category>embedded website</category>
+        
+      </item>
+    
+      <item>
+        <title>Creality Temperature Fix</title>
+        <description>
+          <![CDATA[
+            Fix to parse correctly temperatures from Creality printer
+            <p><img src="https://plugins.octoprint.org/assets/img/repo-600x400.png"></p>
+            
+          ]]>
+        </description>
+        <pubDate>
+Mon, 28 Oct 2019 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/CrealityTemperature/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/CrealityTemperature/</guid>
+        
+        <category>creality</category>
+        
+        <category>temperature</category>
+        
+      </item>
+    
+      <item>
+        <title>OctoPrint-Filamentstorage</title>
+        <description>
+          <![CDATA[
+            Plugin for OpenSource Filament Storage Containers that report Temp, Humidity, and scale values over USB.
+            <p><img src="https://plugins.octoprint.org/assets/img/plugins/filamentstorage/main.png"></p>
+          ]]>
+        </description>
+        <pubDate>
+Fri, 25 Oct 2019 00:00:00 +0000
+</pubDate>
+        <link>http://plugins.octoprint.org/plugins/filamentstorage/?utm_source=rss&amp;utm_medium=feed</link>
+        <guid isPermaLink="true">http://plugins.octoprint.org/plugins/filamentstorage/</guid>
+        
+        <category>filament</category>
+        
+        <category>usb</category>
+        
+      </item>
+    
+  </channel>
+</rss>

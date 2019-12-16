@@ -1,0 +1,593 @@
+2019-08-27 11:11:38,391 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 11:11:38,413 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2019-08-27 11:11:38,454 - octoprint.server - INFO - --- Log roll over detected ---------------------------------------------------
+2019-08-27 11:11:38,456 - octoprint.server - INFO - OctoPrint 1.3.10
+2019-08-27 11:11:38,458 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Bed Visualizer (0.1.7) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_bedlevelvisualizer
+|  Core Wizard (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  CuraEngine (<= 15.04) (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/cura
+|  Custom Control Editor (0.2.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_customControl
+|  Discovery (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Force Login (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  Logging (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Navbar Temperature Plugin (0.11) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_navbartemp
+|  Plugin Manager (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  Slic3r (1.1.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_slic3r
+|  Software Update (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  STL Viewer (0.4.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_stlviewer
+|  Virtual Printer (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2019-08-27 11:11:38,465 - octoprint.environment - INFO - Detected environment is Python 2.7.15rc1 under Linux (linux2). Details:
+|  hardware:
+|    cores: 8
+|    freq: 1750.0
+|    ram: 2091446272
+|  os:
+|    id: linux
+|    platform: linux2
+|  python:
+|    pip: '18.0'
+|    version: 2.7.15rc1
+|    virtualenv: /opt/OctoPrint/venv
+2019-08-27 11:11:38,465 - octoprint.server - INFO - ------------------------------------------------------------------------------
+2019-08-27 11:11:40,744 - octoprint.plugins.announcements - INFO - Loaded channel _important from https://octoprint.org/feeds/important.xml in 2.3s
+2019-08-27 11:11:40,957 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2019-08-27 11:11:40,977 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2019-08-27 11:11:41,904 - octoprint.plugins.announcements - INFO - Loaded channel _releases from https://octoprint.org/feeds/releases.xml in 1.0s
+2019-08-27 11:11:42,233 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2019-08-27 11:11:42,981 - octoprint.plugins.announcements - INFO - Loaded channel _blog from https://octoprint.org/feeds/octoblog.xml in 1.0s
+2019-08-27 11:11:44,018 - octoprint.plugins.announcements - INFO - Loaded channel _plugins from https://plugins.octoprint.org/feed.xml in 0.98s
+2019-08-27 11:11:45,110 - octoprint.plugins.announcements - INFO - Loaded channel _octopi from https://octoprint.org/feeds/octopi.xml in 1.0s
+2019-08-27 11:18:10,173 - tornado.access - WARNING - 404 GET /favicon.ico (192.168.100.28) 5.42ms
+2019-08-27 11:18:10,209 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.28
+2019-08-27 11:18:13,011 - octoprint.server.api - INFO - Actively logging in user rsuzano from 192.168.100.28
+2019-08-27 11:18:13,113 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.100.28
+2019-08-27 11:18:13,128 - octoprint.server.util.flask.PreemptiveCache - INFO - Adding entry for / and {'query_string': 'l10n=en', 'path': u'/', '_count': 1, '_timestamp': 1566904693.127913, 'base_url': 'http://192.168.100.24:5000/'}
+2019-08-27 11:18:15,971 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.28
+2019-08-27 11:18:18,751 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.28
+2019-08-27 11:18:18,826 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.100.28
+2019-08-27 11:18:20,685 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.28
+2019-08-27 11:18:48,314 - octoprint.plugins.softwareupdate - INFO - Starting update of octoprint to 1.3.11...
+2019-08-27 11:21:31,299 - octoprint.plugins.softwareupdate - INFO - Update of octoprint to 1.3.11 successful!
+2019-08-27 11:21:31,446 - octoprint.plugins.softwareupdate - INFO - Starting update of Slic3r to 1.2...
+2019-08-27 11:21:32,352 - octoprint.plugins.tracking - INFO - Sent tracking event update_successful, payload: {'to_version': u'1.3.11', 'from_version': u'1.3.10', 'target': 'octoprint'}
+2019-08-27 11:21:37,841 - octoprint.plugins.softwareupdate - INFO - Update of Slic3r to 1.2 successful!
+2019-08-27 11:21:37,974 - octoprint.plugins.softwareupdate - INFO - Starting update of bedlevelvisualizer to 0.1.10...
+2019-08-27 11:21:38,872 - octoprint.plugins.tracking - INFO - Sent tracking event update_successful, payload: {'to_version': u'1.2', 'from_version': '1.1.1', 'target': u'Slic3r'}
+2019-08-27 11:21:44,692 - octoprint.plugins.softwareupdate - INFO - Update of bedlevelvisualizer to 0.1.10 successful!
+2019-08-27 11:21:44,884 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2019-08-27 11:21:44,887 - octoprint.plugins.softwareupdate - INFO - Restarting...
+2019-08-27 11:21:45,820 - octoprint.plugins.tracking - INFO - Sent tracking event update_successful, payload: {'to_version': u'0.1.10', 'from_version': '0.1.7', 'target': u'bedlevelvisualizer'}
+2019-08-27 11:21:46,264 - octoprint.server - INFO - Shutting down...
+2019-08-27 11:21:46,568 - octoprint.events - INFO - Processing shutdown event, this will be our last event
+2019-08-27 11:21:46,573 - octoprint.events - INFO - Event loop shut down
+2019-08-27 11:21:46,580 - octoprint.server - INFO - Goodbye!
+2019-08-27 11:21:49,698 - octoprint.startup - INFO - ******************************************************************************
+2019-08-27 11:21:49,699 - octoprint.startup - INFO - Starting OctoPrint 1.3.11
+2019-08-27 11:21:49,701 - octoprint.startup - INFO - ******************************************************************************
+2019-08-27 11:21:49,779 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2019-08-27 11:21:50,834 - octoprint.startup - INFO - Blacklist processing done, adding 1 blacklisted plugin versions: roomtemp (any)
+2019-08-27 11:21:50,857 - octoprint.plugin.core - INFO - Loading plugins from /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins, /opt/OctoPrint/.octoprint/plugins and installed plugin packages...
+2019-08-27 11:21:51,445 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin did not pass check, not loading.
+2019-08-27 11:21:51,942 - octoprint.plugins.octoprint.plugins.discovery - INFO - pybonjour is not installed, Zeroconf Discovery won't be available
+2019-08-27 11:21:52,158 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 28 hook handlers
+2019-08-27 11:21:52,761 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2019-08-27 11:21:52,777 - octoprint.server - INFO - Intermediary server started
+2019-08-27 11:21:52,778 - octoprint.plugin.core - INFO - Loading plugins from /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins, /opt/OctoPrint/.octoprint/plugins and installed plugin packages...
+2019-08-27 11:21:52,788 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin did not pass check, not loading.
+2019-08-27 11:21:52,882 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 28 hook handlers
+2019-08-27 11:21:52,918 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /opt/OctoPrint/.octoprint/uploads...
+2019-08-27 11:21:53,145 - octoprint.filemanager.storage - INFO - ... file metadata for /opt/OctoPrint/.octoprint/uploads initialized successfully.
+2019-08-27 11:21:53,177 - octoprint.plugins.softwareupdate - INFO - Version cache was created for another version of OctoPrint, not using it
+2019-08-27 11:21:54,004 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 11:21:54,806 - octoprint.util.pip - INFO - Version of pip is 18.0
+2019-08-27 11:21:54,807 - octoprint.util.pip - INFO - pip installs to /opt/OctoPrint/venv/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-08-27 11:21:54,808 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-08-27 11:21:54,813 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2019-08-27 11:21:54,826 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Bed Visualizer (0.1.10) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_bedlevelvisualizer
+|  Core Wizard (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Custom Control Editor (0.2.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_customControl
+|  Discovery (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  Force Login (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  Logging (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Navbar Temperature Plugin (0.11) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_navbartemp
+|  Plugin Manager (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  Slic3r (1.2) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_slic3r
+|  Software Update (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  STL Viewer (0.4.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_stlviewer
+|  Virtual Printer (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2019-08-27 11:21:54,839 - octoprint.environment - INFO - Detected environment is Python 2.7.15rc1 under Linux (linux2). Details:
+|  hardware:
+|    cores: 8
+|    freq: 1750.0
+|    ram: 2091446272
+|  os:
+|    id: linux
+|    platform: linux2
+|  python:
+|    pip: '18.0'
+|    version: 2.7.15rc1
+|    virtualenv: /opt/OctoPrint/venv
+2019-08-27 11:21:54,850 - octoprint.server - INFO - Reset webasset folder /opt/OctoPrint/.octoprint/generated/webassets...
+2019-08-27 11:21:54,869 - octoprint.server - INFO - Reset webasset folder /opt/OctoPrint/.octoprint/generated/.webassets-cache...
+2019-08-27 11:21:55,307 - octoprint.server - INFO - Shutting down intermediary server...
+2019-08-27 11:21:55,583 - octoprint.server - INFO - Intermediary server shut down
+2019-08-27 11:21:55,590 - octoprint.events - INFO - Processing startup event, this is our first event
+2019-08-27 11:21:55,592 - octoprint.events - INFO - Adding 1 events to queue that were held back before startup event
+2019-08-27 11:21:55,594 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2019-08-27 11:21:55,602 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2019-08-27 11:21:55,619 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2019-08-27 11:21:56,382 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2019-08-27 11:21:56,445 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2019-08-27 11:21:56,448 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2019-08-27 11:21:56,458 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on odroid for SSDP
+2019-08-27 11:21:56,465 - octoprint.server - INFO - Listening on http://0.0.0.0:5000 and http://[::]:5000
+2019-08-27 11:21:56,483 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2019-08-27 11:21:56,526 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-08-27 11:21:56,632 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 11:21:56,743 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2019-08-27 11:21:57,305 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2019-08-27 11:21:57,469 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 11:21:57,556 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 11:21:58,147 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 11:21:58,229 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.28
+2019-08-27 11:21:58,367 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.100.28
+2019-08-27 11:21:58,415 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.28
+2019-08-27 11:21:58,479 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 11:21:58,620 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 11:21:58,649 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 11:22:00,152 - octoprint.util.pip - INFO - pip installs to /opt/OctoPrint/venv/lib/python2.7/site-packages/ (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-08-27 11:22:00,152 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-08-27 11:22:00,157 - octoprint.util.pip - INFO - pip installs to /opt/OctoPrint/venv/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-08-27 11:22:00,159 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-08-27 11:22:00,227 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2019-08-27 11:22:00,238 - octoprint.plugins.bedlevelvisualizer - INFO - OctoPrint-BedLevelVisualizer loaded!
+2019-08-27 11:22:00,245 - octoprint.plugins.stlviewer - INFO - STL Viewer loaded!
+2019-08-27 11:22:00,396 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://192.168.100.24:5000/'}
+2019-08-27 11:22:00,994 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 8}
+2019-08-27 11:22:01,760 - octoprint.plugins.tracking - INFO - Sent tracking event startup, payload: {'python': '2.7.15rc1', 'ram': 2091446272, 'version': u'1.3.11', 'pip': '18.0', 'cores': 8, 'freq': 1750.0, 'os': 'linux'}
+2019-08-27 11:22:05,644 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 11:22:07,766 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2019-08-27 11:22:07,772 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 11:22:07,813 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 1.1.9 (Github)"
+2019-08-27 11:22:07,825 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2019-08-27 11:22:08,556 - octoprint.plugins.tracking - INFO - Sent tracking event printer_connected, payload: {u'printer_baudrate': 115200, u'printer_port': '/dev/ttyACM0', 'firmware_name': 'Marlin 1.1.9 (Github)'}
+2019-08-27 11:22:10,608 - octoprint.server.preemptive_cache - INFO - ... done in 10.21s
+2019-08-27 11:22:58,348 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.100.28
+2019-08-27 11:22:58,455 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.28
+2019-08-27 11:23:00,380 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.28
+2019-08-27 11:23:00,475 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.100.28
+2019-08-27 11:23:02,497 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.28
+2019-08-27 11:23:46,993 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2019-08-27 11:24:03,221 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2019-08-27 11:36:52,763 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 11:37:00,987 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 908}
+2019-08-27 11:37:49,754 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 11:37:49,930 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 11:38:19,290 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 11:40:20,328 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 11:40:20,620 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 11:40:28,107 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 11:41:18,915 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 11:41:19,103 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 11:41:49,688 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 11:43:22,306 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 11:43:22,489 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 11:43:59,356 - octoprint.server.util.sockjs - WARNING - Could not send message to client 192.168.100.7: 'NoneType' object has no attribute 'send_pack'
+2019-08-27 11:43:59,359 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 11:44:18,545 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 11:44:18,830 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 11:45:05,940 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 11:46:07,094 - octoprint.util.comm - WARNING - Received an error from the printer's firmware: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!
+| Last lines in terminal:
+| Recv:  T:220.00 /220.00 B:109.96 /110.00 @:23 B@:103
+| Recv:  T:220.00 /220.00 B:109.80 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:109.56 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:109.36 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:109.04 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:108.73 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:108.43 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:108.14 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:107.88 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:107.65 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:107.45 /110.00 @:23 B@:127
+| Recv:  T:220.09 /220.00 B:107.25 /110.00 @:22 B@:127
+| Recv:  T:220.00 /220.00 B:107.09 /110.00 @:24 B@:127
+| Recv:  T:220.00 /220.00 B:106.95 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:106.79 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:106.60 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:106.49 /110.00 @:23 B@:127
+| Recv:  T:220.00 /220.00 B:106.40 /110.00 @:23 B@:127
+| Recv: Error:Thermal Runaway, system stopped! Heater_ID: bed
+| Recv: Error:Printer halted. kill() called!
+2019-08-27 11:46:07,097 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!"
+2019-08-27 11:46:07,123 - octoprint.util.comm - INFO - Changing monitoring state from "Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!" to "Offline (Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!)"
+2019-08-27 11:46:07,953 - octoprint.plugins.tracking - INFO - Sent tracking event commerror_firmware, payload: {'commerror_text': 'Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!'}
+2019-08-27 11:48:13,026 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 11:48:13,292 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 11:48:17,033 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 34.08ms
+2019-08-27 11:48:19,643 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 38.47ms
+2019-08-27 11:48:20,796 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 49.34ms
+2019-08-27 11:48:22,717 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 44.57ms
+2019-08-27 11:48:25,551 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 45.97ms
+2019-08-27 11:48:26,142 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 38.35ms
+2019-08-27 11:48:28,462 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 11.96ms
+2019-08-27 11:48:30,262 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 18.03ms
+2019-08-27 11:48:33,261 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 16.99ms
+2019-08-27 11:48:34,414 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 15.68ms
+2019-08-27 11:48:38,597 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 30.76ms
+2019-08-27 11:48:39,169 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 61.88ms
+2019-08-27 11:48:39,514 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 31.99ms
+2019-08-27 11:48:40,451 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 29.37ms
+2019-08-27 11:48:52,717 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 32.29ms
+2019-08-27 11:48:53,381 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 19.28ms
+2019-08-27 11:48:54,243 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 12.50ms
+2019-08-27 11:48:54,575 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 19.21ms
+2019-08-27 11:48:54,891 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 22.03ms
+2019-08-27 11:48:55,617 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 15.25ms
+2019-08-27 11:48:56,953 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 29.08ms
+2019-08-27 11:48:57,846 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 50.01ms
+2019-08-27 11:48:58,722 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 11.72ms
+2019-08-27 11:48:59,069 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 44.41ms
+2019-08-27 11:48:59,230 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 45.87ms
+2019-08-27 11:48:59,351 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 16.46ms
+2019-08-27 11:48:59,528 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 24.30ms
+2019-08-27 11:48:59,681 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 28.56ms
+2019-08-27 11:49:00,359 - tornado.access - WARNING - 409 POST /api/printer/command (192.168.100.7) 12.67ms
+2019-08-27 11:49:01,244 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 28.54ms
+2019-08-27 11:49:01,520 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 31.54ms
+2019-08-27 11:49:01,731 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 14.80ms
+2019-08-27 11:49:01,930 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 13.56ms
+2019-08-27 11:49:02,184 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 47.87ms
+2019-08-27 11:49:02,384 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 30.86ms
+2019-08-27 11:49:02,600 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 29.68ms
+2019-08-27 11:49:02,833 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 27.11ms
+2019-08-27 11:49:03,011 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 9.71ms
+2019-08-27 11:49:03,524 - tornado.access - WARNING - 409 POST /api/printer/command (192.168.100.7) 30.63ms
+2019-08-27 11:49:04,551 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 47.00ms
+2019-08-27 11:49:04,782 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 31.23ms
+2019-08-27 11:49:04,971 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 38.96ms
+2019-08-27 11:49:12,746 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 27.87ms
+2019-08-27 11:49:13,294 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 31.76ms
+2019-08-27 11:49:21,448 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 49.02ms
+2019-08-27 11:49:21,999 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 41.12ms
+2019-08-27 11:49:42,212 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 13.52ms
+2019-08-27 11:49:43,681 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 11.04ms
+2019-08-27 11:49:44,541 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 31.56ms
+2019-08-27 11:49:52,514 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 32.08ms
+2019-08-27 11:49:54,100 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 31.09ms
+2019-08-27 11:49:54,817 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 25.09ms
+2019-08-27 11:49:55,544 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 45.55ms
+2019-08-27 11:49:55,950 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 42.28ms
+2019-08-27 11:49:56,220 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 30.46ms
+2019-08-27 11:49:56,402 - tornado.access - WARNING - 409 POST /api/printer/tool (192.168.100.7) 31.02ms
+2019-08-27 11:50:16,644 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2019-08-27 11:50:16,652 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-08-27 11:50:16,662 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 11:50:17,566 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 11:50:19,699 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2019-08-27 11:50:19,704 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 11:50:19,735 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 1.1.9 (Github)"
+2019-08-27 11:50:19,771 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2019-08-27 11:50:20,530 - octoprint.plugins.tracking - INFO - Sent tracking event printer_connected, payload: {u'printer_baudrate': 115200, u'printer_port': u'/dev/ttyACM0', 'firmware_name': 'Marlin 1.1.9 (Github)'}
+2019-08-27 11:50:57,965 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 11:51:08,269 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 11:51:08,419 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 11:51:14,740 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 11:51:52,764 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 11:51:54,880 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 11:51:54,974 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 11:52:01,116 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 1808}
+2019-08-27 11:52:50,480 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 11:52:52,378 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 11:52:52,595 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 11:52:58,277 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2019-08-27 11:53:20,713 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2019-08-27 11:53:55,935 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 11:57:10,163 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 11:57:10,325 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 12:00:44,520 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 12:00:50,712 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 12:00:50,816 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 12:01:59,889 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 12:03:47,322 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 12:03:47,460 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 12:04:30,089 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 12:04:31,080 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 12:04:31,157 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 12:04:40,721 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 12:06:52,767 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 12:07:01,128 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 2708}
+2019-08-27 12:07:23,897 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.28
+2019-08-27 12:07:25,647 - octoprint.server.api - INFO - Actively logging in user rsuzano from 192.168.100.28
+2019-08-27 12:07:25,852 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.100.28
+2019-08-27 12:07:25,953 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.28
+2019-08-27 12:07:28,950 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.28
+2019-08-27 12:07:29,042 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.100.28
+2019-08-27 12:07:31,963 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.28
+2019-08-27 12:14:19,421 - octoprint.filemanager.analysis - INFO - Starting analysis of local:CFDMP_notebookFoot.gcode
+2019-08-27 12:14:19,427 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /opt/OctoPrint/venv/bin/python2 -m octoprint analysis gcode --speed-x=4000 --speed-y=4000 --max-t=10 --throttle=0.0 --throttle-lines=100 /opt/OctoPrint/.octoprint/uploads/CFDMP_notebookFoot.gcode
+2019-08-27 12:14:21,997 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:14:23,754 - octoprint.filemanager.analysis - INFO - Analysis of entry local:CFDMP_notebookFoot.gcode finished, needed 4.33s
+2019-08-27 12:14:49,159 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2019-08-27 12:14:49,163 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:14:49,194 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 12:14:49,206 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2019-08-27 12:14:50,062 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939'}
+2019-08-27 12:14:52,520 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2019-08-27 12:14:52,528 - octoprint.printer.standard.job - INFO - Print job cancelled - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:14:53,379 - octoprint.plugins.tracking - INFO - Sent tracking event print_cancelled, payload: {'origin': 'local', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939', 'elapsed': 3}
+2019-08-27 12:14:54,253 - octoprint.plugins.tracking - INFO - Sent tracking event print_failed, payload: {'origin': 'local', 'reason': 'cancelled', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939', 'elapsed': 3}
+2019-08-27 12:15:30,391 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2019-08-27 12:15:39,969 - octoprint.printer.standard.job - INFO - Print job deselected - user: n/a
+2019-08-27 12:15:55,622 - octoprint.filemanager.analysis - INFO - Starting analysis of local:CFDMP_notebookFoot.gcode
+2019-08-27 12:15:55,624 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /opt/OctoPrint/venv/bin/python2 -m octoprint analysis gcode --speed-x=4000 --speed-y=4000 --max-t=10 --throttle=0.0 --throttle-lines=100 /opt/OctoPrint/.octoprint/uploads/CFDMP_notebookFoot.gcode
+2019-08-27 12:15:57,118 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:15:59,744 - octoprint.filemanager.analysis - INFO - Analysis of entry local:CFDMP_notebookFoot.gcode finished, needed 4.12s
+2019-08-27 12:16:00,606 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2019-08-27 12:16:00,611 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:16:00,625 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 12:16:00,637 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2019-08-27 12:16:01,457 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939'}
+2019-08-27 12:21:52,771 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 12:21:59,214 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2019-08-27 12:21:59,226 - octoprint.printer.standard.job - INFO - Print job cancelled - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:22:00,047 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2019-08-27 12:22:00,105 - octoprint.plugins.tracking - INFO - Sent tracking event print_cancelled, payload: {'origin': 'local', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939', 'elapsed': 358}
+2019-08-27 12:22:00,969 - octoprint.plugins.tracking - INFO - Sent tracking event print_failed, payload: {'origin': 'local', 'reason': 'cancelled', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939', 'elapsed': 358}
+2019-08-27 12:22:01,839 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 3608}
+2019-08-27 12:23:43,774 - octoprint.util.comm - WARNING - Received an error from the printer's firmware: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!
+| Last lines in terminal:
+| Recv: echo:  M301 P16.18 I1.18 D55.67
+| Recv: echo:  M304 P376.42 I52.82 D670.69
+| Recv: echo:Z-Probe Offset (mm):
+| Recv: echo:  M851 Z-1.14
+| Recv: echo:Stepper driver current:
+| Recv: echo:  M906 X900 Y900 Z850
+| Recv:   M906 T0 E800
+| Recv: 
+| Recv: echo:Hybrid Threshold:
+| Recv: echo:  M913 X1 Y1 Z1
+| Recv:   M913 T0 E1
+| Recv: 
+| Recv: echo:Sensorless homing threshold:
+| Recv: echo:  M914 X8 Y8
+| Recv: ok
+| Recv:  T:229.00 /229.00 B:107.15 /110.00 @:24 B@:127
+| Recv:  T:229.00 /229.00 B:107.20 /110.00 @:23 B@:127
+| Recv:  T:229.00 /229.00 B:107.33 /110.00 @:23 B@:127
+| Recv: Error:Thermal Runaway, system stopped! Heater_ID: bed
+| Recv: Error:Printer halted. kill() called!
+2019-08-27 12:23:43,778 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!"
+2019-08-27 12:23:43,805 - octoprint.util.comm - INFO - Changing monitoring state from "Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!" to "Offline (Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!)"
+2019-08-27 12:23:44,560 - octoprint.plugins.tracking - INFO - Sent tracking event commerror_firmware, payload: {'commerror_text': 'Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!'}
+2019-08-27 12:23:45,994 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2019-08-27 12:23:46,009 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-08-27 12:23:46,021 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 12:23:46,911 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 12:23:49,052 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2019-08-27 12:23:49,060 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 12:23:49,095 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 1.1.9 (Github)"
+2019-08-27 12:23:49,122 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2019-08-27 12:23:50,001 - octoprint.plugins.tracking - INFO - Sent tracking event printer_connected, payload: {u'printer_baudrate': 115200, u'printer_port': u'/dev/ttyACM0', 'firmware_name': 'Marlin 1.1.9 (Github)'}
+2019-08-27 12:24:50,759 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2019-08-27 12:25:11,080 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2019-08-27 12:26:04,007 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: Brave_Vihelmo_(2).gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:26:07,490 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:26:12,013 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2019-08-27 12:26:12,019 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:26:12,030 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 12:26:12,039 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2019-08-27 12:26:12,908 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939'}
+2019-08-27 12:28:19,771 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2019-08-27 12:28:19,781 - octoprint.printer.standard.job - INFO - Print job cancelled - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:28:20,641 - octoprint.plugins.tracking - INFO - Sent tracking event print_cancelled, payload: {'origin': 'local', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939', 'elapsed': 127}
+2019-08-27 12:28:21,517 - octoprint.plugins.tracking - INFO - Sent tracking event print_failed, payload: {'origin': 'local', 'reason': 'cancelled', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939', 'elapsed': 127}
+2019-08-27 12:29:45,720 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2019-08-27 12:30:04,631 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 12:30:04,892 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 12:30:05,209 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 12:30:57,621 - octoprint.printer.standard.job - INFO - Print job deselected - user: n/a
+2019-08-27 12:31:04,810 - octoprint.filemanager.analysis - INFO - Starting analysis of local:CFDMP_notebookFoot.gcode
+2019-08-27 12:31:04,812 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /opt/OctoPrint/venv/bin/python2 -m octoprint analysis gcode --speed-x=4000 --speed-y=4000 --max-t=10 --throttle=0.0 --throttle-lines=100 /opt/OctoPrint/.octoprint/uploads/CFDMP_notebookFoot.gcode
+2019-08-27 12:31:06,576 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:31:08,981 - octoprint.filemanager.analysis - INFO - Analysis of entry local:CFDMP_notebookFoot.gcode finished, needed 4.17s
+2019-08-27 12:31:11,274 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2019-08-27 12:31:11,284 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:31:11,295 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 12:31:11,310 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2019-08-27 12:31:12,178 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939'}
+2019-08-27 12:35:59,275 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 12:35:59,360 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 12:36:52,775 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 12:36:57,225 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2019-08-27 12:36:57,236 - octoprint.printer.standard.job - INFO - Print job cancelled - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:36:58,129 - octoprint.plugins.tracking - INFO - Sent tracking event print_cancelled, payload: {'origin': 'local', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939', 'elapsed': 345}
+2019-08-27 12:36:58,594 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2019-08-27 12:36:58,985 - octoprint.plugins.tracking - INFO - Sent tracking event print_failed, payload: {'origin': 'local', 'reason': 'cancelled', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939', 'elapsed': 345}
+2019-08-27 12:37:01,159 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 4508}
+2019-08-27 12:38:06,097 - octoprint.printer.standard.job - INFO - Print job deselected - user: n/a
+2019-08-27 12:38:17,126 - octoprint.util.comm - WARNING - Received an error from the printer's firmware: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!
+| Last lines in terminal:
+| Recv:  T:228.00 /229.00 B:110.01 /110.00 @:35 B@:74
+| Recv:  T:228.00 /229.00 B:110.01 /110.00 @:35 B@:74
+| Recv:  T:228.00 /229.00 B:110.03 /110.00 @:35 B@:69
+| Recv:  T:228.25 /229.00 B:109.92 /110.00 @:32 B@:99
+| Recv:  T:229.00 /229.00 B:109.70 /110.00 @:22 B@:127
+| Recv:  T:229.00 /229.00 B:109.39 /110.00 @:25 B@:127
+| Recv:  T:229.00 /229.00 B:108.89 /110.00 @:26 B@:127
+| Recv:  T:229.06 /229.00 B:108.34 /110.00 @:26 B@:127
+| Recv:  T:229.44 /229.00 B:107.73 /110.00 @:20 B@:127
+| Recv:  T:229.94 /229.00 B:107.20 /110.00 @:14 B@:127
+| Recv:  T:229.94 /229.00 B:106.72 /110.00 @:15 B@:127
+| Recv:  T:229.88 /229.00 B:106.39 /110.00 @:16 B@:127
+| Recv:  T:229.44 /229.00 B:106.12 /110.00 @:22 B@:127
+| Recv:  T:229.06 /229.00 B:105.91 /110.00 @:27 B@:127
+| Recv:  T:229.00 /229.00 B:105.84 /110.00 @:26 B@:127
+| Recv:  T:229.00 /229.00 B:105.84 /110.00 @:25 B@:127
+| Recv:  T:229.00 /229.00 B:105.87 /110.00 @:24 B@:127
+| Recv:  T:229.00 /229.00 B:105.95 /110.00 @:24 B@:127
+| Recv: Error:Thermal Runaway, system stopped! Heater_ID: bed
+| Recv: Error:Printer halted. kill() called!
+2019-08-27 12:38:17,132 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!"
+2019-08-27 12:38:17,156 - octoprint.util.comm - INFO - Changing monitoring state from "Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!" to "Offline (Error: Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!)"
+2019-08-27 12:38:17,915 - octoprint.plugins.tracking - INFO - Sent tracking event commerror_firmware, payload: {'commerror_text': 'Thermal Runaway, system stopped! Heater_ID: bed - Printer halted. kill() called!'}
+2019-08-27 12:39:14,241 - octoprint.filemanager.analysis - INFO - Starting analysis of local:CFDMP_notebookFoot.gcode
+2019-08-27 12:39:14,250 - octoprint.filemanager.analysis - INFO - Invoking analysis command: /opt/OctoPrint/venv/bin/python2 -m octoprint analysis gcode --speed-x=4000 --speed-y=4000 --max-t=10 --throttle=0.0 --throttle-lines=100 /opt/OctoPrint/.octoprint/uploads/CFDMP_notebookFoot.gcode
+2019-08-27 12:39:18,074 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2019-08-27 12:39:18,078 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-08-27 12:39:18,082 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 12:39:18,321 - octoprint.filemanager.analysis - INFO - Analysis of entry local:CFDMP_notebookFoot.gcode finished, needed 4.08s
+2019-08-27 12:39:18,993 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 12:39:21,123 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2019-08-27 12:39:21,127 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 12:39:21,159 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 1.1.9 (Github)"
+2019-08-27 12:39:21,191 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2019-08-27 12:39:22,034 - octoprint.plugins.tracking - INFO - Sent tracking event printer_connected, payload: {u'printer_baudrate': 115200, u'printer_port': u'/dev/ttyACM0', 'firmware_name': 'Marlin 1.1.9 (Github)'}
+2019-08-27 12:39:23,525 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:39:25,945 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2019-08-27 12:39:25,951 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano, user: rsuzano
+2019-08-27 12:39:25,963 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-27 12:39:25,992 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2019-08-27 12:39:26,809 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939'}
+2019-08-27 12:39:28,033 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2019-08-27 12:40:04,114 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 12:40:04,187 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 12:41:01,320 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2019-08-27 12:41:17,405 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 12:41:17,420 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 12:41:17,778 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 12:41:21,256 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.7
+2019-08-27 12:45:01,782 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.28
+2019-08-27 12:51:51,473 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.28
+2019-08-27 12:51:51,572 - octoprint.server.util.flask - INFO - Passively logging in user rsuzano from 192.168.100.28
+2019-08-27 12:51:52,778 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 12:51:53,158 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.28
+2019-08-27 12:52:01,155 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 5408}
+2019-08-27 12:52:02,967 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.100.28
+2019-08-27 13:06:52,784 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 13:07:01,252 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 6308}
+2019-08-27 13:21:52,787 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 13:22:01,069 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 7208}
+2019-08-27 13:36:52,791 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 13:37:01,157 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 8108}
+2019-08-27 13:51:52,795 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 13:52:01,146 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 9008}
+2019-08-27 13:57:19,137 - octoprint.util.comm - INFO - Finished in 4673.192 s.
+2019-08-27 13:57:19,139 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Finishing"
+2019-08-27 13:57:19,146 - octoprint.printer.standard.job - INFO - Print job done - origin: local, path: CFDMP_notebookFoot.gcode, owner: rsuzano
+2019-08-27 13:57:19,165 - octoprint.util.comm - INFO - Changing monitoring state from "Finishing" to "Operational"
+2019-08-27 13:57:20,016 - octoprint.plugins.tracking - INFO - Sent tracking event print_done, payload: {'origin': 'local', 'file': 'c6e77215d42baaf5a546612efe85c982866ba939', 'elapsed': 4673}
+2019-08-27 14:06:52,797 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 14:07:01,182 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 9908}
+2019-08-27 14:21:52,799 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 14:22:01,189 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 10808}
+2019-08-27 14:36:52,804 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 14:37:01,178 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 11708}
+2019-08-27 14:51:52,808 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 14:52:01,213 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 12608}
+2019-08-27 15:06:52,810 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 15:07:01,202 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 13508}
+2019-08-27 15:21:52,815 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2019-08-27 15:22:01,224 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 14408}
+2019-08-27 15:26:28,911 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.100.7
+2019-08-27 15:26:29,114 - octoprint.server.util.sockjs - INFO - User rsuzano logged in on the socket from client 192.168.100.7
+2019-08-27 15:26:33,231 - octoprint.server.api.system - INFO - Performing command for core:shutdown: sudo shutdown -h now
+2019-08-27 15:26:33,809 - octoprint.server - INFO - Shutting down...
+2019-08-27 15:26:34,419 - octoprint.events - INFO - Processing shutdown event, this will be our last event
+2019-08-27 15:26:34,427 - octoprint.events - INFO - Event loop shut down
+2019-08-27 15:26:34,460 - octoprint.server - INFO - Goodbye!
+2019-08-27 15:26:38,954 - octoprint.startup - INFO - ******************************************************************************
+2019-08-27 15:26:38,956 - octoprint.startup - INFO - Starting OctoPrint 1.3.11
+2019-08-27 15:26:38,957 - octoprint.startup - INFO - ******************************************************************************
+2019-08-27 15:26:39,003 - octoprint.startup - INFO - We don't appear to be online, not fetching plugin blacklist
+2019-08-27 15:26:39,046 - octoprint.plugin.core - INFO - Loading plugins from /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins, /opt/OctoPrint/.octoprint/plugins and installed plugin packages...
+2019-08-27 15:26:39,837 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin did not pass check, not loading.
+2019-08-27 15:26:40,565 - octoprint.plugins.octoprint.plugins.discovery - INFO - pybonjour is not installed, Zeroconf Discovery won't be available
+2019-08-27 15:26:40,576 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 28 hook handlers
+2019-08-27 15:26:40,761 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2019-08-27 15:26:40,788 - octoprint.server - INFO - Intermediary server started
+2019-08-27 15:26:40,788 - octoprint.plugin.core - INFO - Loading plugins from /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins, /opt/OctoPrint/.octoprint/plugins and installed plugin packages...
+2019-08-27 15:26:40,799 - octoprint.plugin.core - INFO - Plugin Pi Support Plugin did not pass check, not loading.
+2019-08-27 15:26:40,893 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 28 hook handlers
+2019-08-27 15:26:40,923 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /opt/OctoPrint/.octoprint/uploads...
+2019-08-27 15:26:41,152 - octoprint.filemanager.storage - INFO - ... file metadata for /opt/OctoPrint/.octoprint/uploads initialized successfully.
+2019-08-27 15:26:41,222 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2019-08-27 15:26:42,385 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 15:26:43,178 - octoprint.util.pip - INFO - Version of pip is 18.0
+2019-08-27 15:26:43,180 - octoprint.util.pip - INFO - pip installs to /opt/OctoPrint/venv/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-08-27 15:26:43,180 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-08-27 15:26:43,185 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2019-08-27 15:26:43,196 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Bed Visualizer (0.1.10) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_bedlevelvisualizer
+|  Core Wizard (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Custom Control Editor (0.2.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_customControl
+|  Discovery (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  Force Login (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  Logging (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Navbar Temperature Plugin (0.11) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_navbartemp
+|  Plugin Manager (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  Slic3r (1.2) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_slic3r
+|  Software Update (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  STL Viewer (0.4.1) = /opt/OctoPrint/venv/local/lib/python2.7/site-packages/octoprint_stlviewer
+|  Virtual Printer (bundled) = /opt/OctoPrint/venv/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2019-08-27 15:26:43,210 - octoprint.environment - INFO - Detected environment is Python 2.7.15rc1 under Linux (linux2). Details:
+|  hardware:
+|    cores: 8
+|    freq: 1750.0
+|    ram: 2091446272
+|  os:
+|    id: linux
+|    platform: linux2
+|  python:
+|    pip: '18.0'
+|    version: 2.7.15rc1
+|    virtualenv: /opt/OctoPrint/venv
+2019-08-27 15:26:43,251 - octoprint.server - INFO - Reset webasset folder /opt/OctoPrint/.octoprint/generated/webassets...
+2019-08-27 15:26:43,323 - octoprint.server - INFO - Reset webasset folder /opt/OctoPrint/.octoprint/generated/.webassets-cache...
+2019-08-27 15:26:43,850 - octoprint.server - INFO - Shutting down intermediary server...
+2019-08-27 15:26:44,295 - octoprint.server - INFO - Intermediary server shut down
+2019-08-27 15:26:44,309 - octoprint.events - INFO - Processing startup event, this is our first event
+2019-08-27 15:26:44,309 - octoprint.events - INFO - Adding 0 events to queue that were held back before startup event
+2019-08-27 15:26:44,312 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2019-08-27 15:26:44,321 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2019-08-27 15:26:44,324 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2019-08-27 15:26:44,327 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2019-08-27 15:26:44,339 - octoprint.server - INFO - Listening on http://0.0.0.0:5000 and http://[::]:5000
+2019-08-27 15:26:44,374 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2019-08-27 15:26:44,862 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2019-08-27 15:26:45,190 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 15:26:45,191 - octoprint.util.pip - INFO - pip installs to /opt/OctoPrint/venv/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-08-27 15:26:45,192 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-08-27 15:26:46,032 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 15:26:46,102 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 15:26:46,882 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 15:26:46,883 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 15:26:46,923 - octoprint.util.pip - INFO - Using "/opt/OctoPrint/venv/bin/python2 -m pip" as command to invoke pip
+2019-08-27 15:26:48,022 - octoprint.util.pip - INFO - pip installs to /opt/OctoPrint/venv/lib/python2.7/site-packages/ (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-08-27 15:26:48,022 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-08-27 15:26:48,150 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2019-08-27 15:26:48,161 - octoprint.plugins.bedlevelvisualizer - INFO - OctoPrint-BedLevelVisualizer loaded!
+2019-08-27 15:26:48,169 - octoprint.plugins.stlviewer - INFO - STL Viewer loaded!
+2019-08-27 15:26:48,329 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://192.168.100.24:5000/'}
+2019-08-27 15:26:55,836 - octoprint.server.preemptive_cache - INFO - ... done in 7.51s
